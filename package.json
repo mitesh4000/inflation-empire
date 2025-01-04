@@ -1,0 +1,43 @@
+{
+  "name": "inflation_empire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "prod": "NODE_ENV=production npx tsc && node dist/src/index.js",
+    "dev": "NODE_ENV=development npx tsx watch src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.11.0",
+    "mongoose": "^8.8.3",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.8.1",
+    "ws": "^8.18.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^22.10.1",
+    "@types/ws": "^8.5.13",
+    "nodemon": "^3.1.9",
+    "tailwind": "^4.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
